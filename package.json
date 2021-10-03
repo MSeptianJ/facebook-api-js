@@ -1,0 +1,23 @@
+{
+  "name": "facebook-api-js",
+  "version": "1.0.0",
+  "description": "Example of Facebook login and the graph api using the JavaScript SDK",
+  "main": "firebase-setup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradtraversy/socialauth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradtraversy/socialauth/issues"
+  },
+  "homepage": "https://github.com/bradtraversy/socialauth#readme",
+  "dependencies": {
+    "firebase": "^9.1.1"
+  }
+}

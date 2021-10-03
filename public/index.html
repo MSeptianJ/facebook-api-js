@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>FBest</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="assets/FBest-48x48.png">
+  </head>
+  <body>
+  <div id="fb-root"></div>
+    <script src="script/fb-api.js"></script>
+    <header>
+      <div class="header-inner">
+        <div class="header-title">
+          <h2><span>F</span>Best</h2>
+        </div>
+        <nav id="navbar" class="">
+          <ul class="">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a id="logout" href="#" onclick="logout()">Logout</a></li>
+            <li>
+              <div
+                id="login"
+                class="fb-login-button"
+                data-width=""
+                data-size="medium"
+                data-button-type="login_with"
+                data-layout="default"
+                data-auto-logout-link="false"
+                data-use-continue-as="false"
+                onlogin="checkLoginState()"
+              >
+                Log in to Facebook
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="container-inner">
+          <div id="default-index">
+            <h3 id="heading">Log in to view your profile</h3>
+            <div class="fb-login-button"
+                 data-width=""
+                 data-size="large"
+                 data-button-type="login_with"
+                 data-layout="default"
+                 data-auto-logout-link="false"
+                 data-use-continue-as="false"
+                 onlogin="checkLoginState()"
+            >
+              Log in to Facebook
+            </div>
+          </div>
+
+          <div id="login-index">
+            <div id="profile" class="profile-container">
+
+            </div>
+
+            <div class="post-title">
+              <h3>Latest Posts</h3>
+              <button class="refresh-btn" onclick="refresh()">
+                Refresh
+              </button>
+            </div>
+
+            <div id="post" class="post-container">
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </body>
+</html>
