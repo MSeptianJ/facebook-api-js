@@ -29,7 +29,7 @@
                 data-layout="default"
                 data-auto-logout-link="false"
                 data-use-continue-as="false"
-                data-scope="public_profile, email, user_birthday, user_posts"
+                scope="public_profile, email, user_birthday, user_posts"
                 data-onlogin="checkLoginState()"
               >
                 Log in to Facebook
@@ -51,31 +51,25 @@
                  data-layout="default"
                  data-auto-logout-link="false"
                  data-use-continue-as="false"
-                 data-scope="public_profile, email, user_birthday, user_posts"
+                 scope="public_profile, email, user_birthday, user_posts"
                  data-onlogin="checkLoginState()"
             >
               Log in to Facebook
             </div>
           </div>
-
           <div id="login-index">
             <div id="profile" class="profile-container">
-
             </div>
-
             <div class="post-title">
               <h3>Latest Posts</h3>
               <button class="refresh-btn" onclick="refresh()">
                 Refresh
               </button>
             </div>
-
             <div id="post" class="post-container">
-
             </div>
           </div>
         </div>
-
       </div>
     </main>
   </body>
