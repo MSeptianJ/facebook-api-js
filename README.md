@@ -37,8 +37,3 @@ Indonesia:
 >- Set up fitur *facebook login* pada dashboard anda
 >- Tekan yes pada *login with the JavaScript SDK*
 >- Isi form *Allowed Domains for the JavaScript SDK* dengan web yang sudah dihost
-
-
-## My Example
-You can see the result of this repo here (https://msj-pabg.web.app)  
-this example is not connected to a database, don't worry
